@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlenderFed</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+
+<header style="display:flex;justify-content: space-between; align-items: center;">
+    <p style="text-align: left; font-size: large">On this site you can download free 3D models</p>
+    <h1>BlenderFed</h1>
+    <button id="myButton5" class="my-button">Download all models for free</button>
+
+</header>
+
+<main>
+    <form>
+        <input type="search" placeholder="Enter search" style="font-size: large" class="search">
+        <button type="submit">Search</button>
+    </form>
+    <!--Button 0-->
+    <div id="myModal" class="myModal">
+        <div style="display: flex; justify-content: end">
+            <button class="close-button1" aria-label="Закрыть окно" id="close-button">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+    </div>
+    <!--      //Button 1-->
+    <div id="myModal1" class="myModal1">
+        <div style="display: flex; justify-content: end;">
+            <button class="close-button1" aria-label="Закрыть окно" id="close-button1">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+
+        <div style="flex-direction: column;">
+        <img src=".idea/image/car.jpg" style="width: 50%; height: auto" alt="car">
+            <video src=".idea/video.mp4"  style="width: 35%; height: 55% " controls></video>
+
+            <div style="flex-direction: column; padding: 20px;" >
+                <p class="text">This project is big. I'can animation car or all models. I have Blender 3.6.12. This version is good and new product in blender.org.This project contains a car not of our own production (work), but the textures, bridge, etc. were made independently. The idea was taken from a video on YouTube about car animation.</p>
+            </div>
+            <img src=".idea/image/car1.jpg" style="width: 20%; height: auto" alt="car">
+            <img src=".idea/image/car 2.jpg" style="width: 20%; height: auto" alt="car">
+            <img src=".idea/image/car3.png" style="width: 20%; height: auto" alt="car">
+            <img src=".idea/image/car4.png" style="width: 20%; height: auto" alt="car">
+            <p class="text">The texture of the oswalt turned out to be a little similar. At the same time, in the last picture we see that the asphalt is more seamless.Here it was necessary to suffer with UV unwrapping of textures. Despite this I finished this part of the project. And I got busy with animation. And got the result.</p>
+
+
+        </div>
+
+    </div>
+    <!--button 2-->
+    <div id="myModal2" class="myModal2">
+        <div style="display: flex; justify-content: end">
+            <button class="close-button1" aria-label="Закрыть окно" id="close-button2">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+    </div>
+    <!--      button 3-->
+    <div id="myModal3" class="myModal3">
+        <div style="display: flex; justify-content: end">
+            <button class="close-button1" aria-label="Закрыть окно" id="close-button3">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+    </div>
+    <!--      button 4-->
+    <div style="" id="myModal4" class="myModal4">
+        <div style="display: flex; justify-content: center;">
+            <p style=" font-size: x-large">Do you want to download all models from this website?</p>
+        </div>
+        <div style="display: flex; justify-content: end; font-size: xxx-large; padding: 20px; gap: 20px">
+            <button id="myButton7" style="" class="my-button1">Download</button>
+            <button id="myButton6" style="font-size: large">Close</button>
+        </div>
+    </div>
+    <p id="massage1"></p>
+    <p id="massage2"></p>
+    <p id="massage3"></p>
+    <p id="massage4"></p>
+    <p id="massage5"></p>
+    <p id="massage"></p>
+    <img src=".idea/image/gora.png" class="image" alt="car" id="image">
+    <img src=".idea/image/gin.gif" class="image" alt="car" id="image1">
+
+<!--    images windows-->
+    <div id="myModal5" class="myModal6">
+        <div style="display: flex; justify-content: end">
+            <button class="close-button1" aria-label="Закрыть окно" id="close-button4">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+        <img src=".idea/image/gora.png" class="image" alt="car" id="image2">
+        <p>This model is very late and low poly.</p>
+
+    </div>
+
+</main>
+<footer style="display:flex;gap: 20px; border-radius: 10px;padding: 10px;left: 10px; width: 98%; ">
+    <p>My content</p>
+    <button id="myButton">My portfolio!</button>
+    <button id="myButton1">My big project</button>
+    <button id="myButton2">Realistic models</button>
+    <button id="myButton3">Low poly models</button>
+    <button id="myButton4">Information for you</button>
+
+</footer>
+<script src="script.js"></script>
+
+
+</body>
+</html>
